@@ -1,14 +1,19 @@
-import Navbar from "./navbar";
+import LargeNavbar from "./largeNavbar";
+import styled from 'styled-components'
+
+const DisplayContainer = styled.div`
+  padding: 0;
+  margin: 0;
+  height: 100%;
+`;
 
 export default function Layout({children}) {
     return (
-        <>
-            <Navbar />
-
+        <DisplayContainer>
+            <LargeNavbar />
             <main>
                 {children}
             </main>
-            
-        </>
+        </DisplayContainer>
     )
-}
+};
