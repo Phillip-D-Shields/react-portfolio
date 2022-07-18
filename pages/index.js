@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const HomeDisplay = styled.div`
-  height: 900%;
+  height: 100%;
   width: 90%;
   padding: 2rem;
   margin: auto;
@@ -9,7 +9,7 @@ const HomeDisplay = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  color: #025930;
+  color: #404040;
   text-align: right;
 
   h2 {
@@ -20,8 +20,8 @@ const HomeDisplay = styled.div`
     font-size: 5rem;
     margin: 2rem 0;
     padding: .5rem;
-    background: #025930;
-    color: #F2D8CE;
+    background: #049DD9;
+    color: #D9CCCC;
     letter-spacing: 0.25rem
   }
 
@@ -31,24 +31,16 @@ const HomeDisplay = styled.div`
     width: 50%;
   }
 
-  .transition-enter {
-    opacity: 0.01;
-    transform: translate(0, -10px);
-  }
-  .transition-enter-active {
-    opacity: 1;
-    transform: translate(0, 0);
-    transition: all 300ms ease-in;
-  }
 `;
 
 
 export default function Home() {
   return (
    <HomeDisplay>
-    <h2>Hi, this is a digital representation of</h2>
+    <h2>Hi, this is the digital cv of</h2>
     <h1>Phillip David Shields</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati iure id tempora quos consequatur, dolor adipisci eius numquam laborum, distinctio neque eos in nobis aliquam?</p>
+    <p>I threw this together to show off some of my noob skills. I am planning on adding some mobile responsiveness, but for now everything is best viewed on a tablet or bigger.</p>
+    <p>click on one of the sections listed in the bottom left to have a look around.</p>
    </HomeDisplay>
   )
 }

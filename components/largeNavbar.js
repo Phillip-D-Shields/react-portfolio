@@ -19,22 +19,22 @@ const StyledLi = styled.li`
   position: relative;
   list-style: none;
   width: 125px;
-  background:#038045;
+  background:#049DD9;
   padding: 15px;
   transition: 0.5s;
-  color: #F2D8CE;
+  color: #D9CCCC;
   display: flex;
 
   &:hover {
-    background: #F23D3D;
+    background: #F23005;
     transform: translateX(30px);
-    color: #33311A;
+    color:#404040;
 
     &:before {
-      background: #B32D2D;
+      background: #B32404;
     }
     &:after {
-      background: #731D1D;
+      background: #731702;
     }
   }
 
@@ -45,7 +45,7 @@ const StyledLi = styled.li`
     left: -40px;
     width: 40px;
     height: 100%;
-    background:  #02733E;
+    background:  #036F99;
     transform-origin: right;
     transform: skewY(45deg);
     transition: 0.5s;
@@ -58,7 +58,7 @@ const StyledLi = styled.li`
     left: 0;
     width: 100%;
     height: 40px;
-    background: #025930;
+    background: #024059;
     transform-origin: bottom;
     transform: skewX(45deg);
     transition: 0.5s;
@@ -84,25 +84,32 @@ export default function LargeNavbar() {
         
         <StyledLi style={{ zIndex: 4 }}>
           <Link href="/">
-            home
+            kia ora
           </Link>{" "}
         </StyledLi>
 
         <StyledLi style={{ zIndex: 3 }}>
-          <Link href="/about">
-            about
+          <Link href="/past">
+            past
+            experience
           </Link>{" "}
         </StyledLi>
 
         <StyledLi style={{ zIndex: 2 }}>
-          <Link href="/portfolio">
-            portfolio
+          <Link href="/code">
+            code
           </Link>{" "}
         </StyledLi>
         
         <StyledLi style={{ zIndex: 1 }}>
-          <Link href="/contact">
-            contact
+          <Link href="/live">
+            live examples
+          </Link>{" "}
+        </StyledLi>
+
+        <StyledLi style={{ zIndex: 0 }}>
+          <Link href="/about">
+            about me
           </Link>{" "}
         </StyledLi>
       
