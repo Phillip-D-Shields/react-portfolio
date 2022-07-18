@@ -31,12 +31,16 @@ const HomeDisplay = styled.div`
     width: 50%;
     text-align: left;
   }
+  .text-link {
+    color: #f23005;
+    text-decoration: underline;
+  }
 `;
 
 export default function Home() {
   return (
     <HomeDisplay>
-      <h2>Hi, this is the digital cv of</h2>
+      <h2>Kia ora, this is the digital cv of</h2>
       <h1>Phillip David Shields</h1>
       <p>
         I threw this together to show off some of my noob skills. I am planning
@@ -47,6 +51,7 @@ export default function Home() {
         click on one of the sections listed in the bottom left to have a look
         around.
       </p>
+      <p>If you want to contact me, feel free to <a href="https://www.linkedin.com/in/phillip-d-shields/" className="text-link">send me a message on linkedin</a>.</p>
     </HomeDisplay>
   );
 }
