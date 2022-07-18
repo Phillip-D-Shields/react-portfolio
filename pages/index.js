@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const HomeDisplay = styled.div`
   height: 100%;
@@ -19,28 +19,34 @@ const HomeDisplay = styled.div`
   h1 {
     font-size: 5rem;
     margin: 2rem 0;
-    padding: .5rem;
-    background: #049DD9;
-    color: #D9CCCC;
-    letter-spacing: 0.25rem
+    padding: 0.5rem;
+    background: #049dd9;
+    color: #d9cccc;
+    letter-spacing: 0.25rem;
   }
 
   p {
-    text-indent: .75rem;
+    text-indent: 0.75rem;
     font-size: 1.25rem;
     width: 50%;
+    text-align: left;
   }
-
 `;
-
 
 export default function Home() {
   return (
-   <HomeDisplay>
-    <h2>Hi, this is the digital cv of</h2>
-    <h1>Phillip David Shields</h1>
-    <p>I threw this together to show off some of my noob skills. I am planning on adding some mobile responsiveness, but for now everything is best viewed on a tablet or bigger.</p>
-    <p>click on one of the sections listed in the bottom left to have a look around.</p>
-   </HomeDisplay>
-  )
+    <HomeDisplay>
+      <h2>Hi, this is the digital cv of</h2>
+      <h1>Phillip David Shields</h1>
+      <p>
+        I threw this together to show off some of my noob skills. I am planning
+        on adding some mobile responsiveness, but for now, everything is best
+        viewed on a tablet or bigger.
+      </p>
+      <p>
+        click on one of the sections listed in the bottom left to have a look
+        around.
+      </p>
+    </HomeDisplay>
+  );
 }

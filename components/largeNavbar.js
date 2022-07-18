@@ -8,6 +8,7 @@ const NavContainer = styled.nav`
   align-items: center;
   bottom: 12px;
   left: 12px;
+  font-size: 1.5rem;
 `;
 
 const UlContainer = styled.ul`
@@ -18,20 +19,20 @@ const UlContainer = styled.ul`
 const StyledLi = styled.li`
   position: relative;
   list-style: none;
-  width: 125px;
-  background:#049DD9;
+  width: 225px;
+  background: #049dd9;
   padding: 15px;
-  transition: 0.5s;
-  color: #D9CCCC;
+  transition: 0.25s;
+  color: #d9cccc;
   display: flex;
 
   &:hover {
-    background: #F23005;
+    background: #f23005;
     transform: translateX(30px);
-    color:#404040;
+    color: #404040;
 
     &:before {
-      background: #B32404;
+      background: #b32404;
     }
     &:after {
       background: #731702;
@@ -45,10 +46,10 @@ const StyledLi = styled.li`
     left: -40px;
     width: 40px;
     height: 100%;
-    background:  #036F99;
+    background: #036f99;
     transform-origin: right;
     transform: skewY(45deg);
-    transition: 0.5s;
+    transition: 0.25s;
   }
 
   &:after {
@@ -61,60 +62,37 @@ const StyledLi = styled.li`
     background: #024059;
     transform-origin: bottom;
     transform: skewX(45deg);
-    transition: 0.5s;
+    transition: 0.25s;
   }
 
-  Link {
+  a {
     text-transform: uppercase;
     display: block;
     letter-spacing: 0.05rem;
     transition: 0.25s;
-  }
-  a {
-    width: 100%;
-    height: 100%;
   }
 `;
 
 export default function LargeNavbar() {
   return (
     <NavContainer>
-      
       <UlContainer>
-        
         <StyledLi style={{ zIndex: 4 }}>
-          <Link href="/">
-            kia ora
-          </Link>{" "}
+          <Link href="/">kia ora</Link>{" "}
         </StyledLi>
 
         <StyledLi style={{ zIndex: 3 }}>
-          <Link href="/past">
-            past
-            experience
-          </Link>{" "}
+          <Link href="/past">past experience</Link>{" "}
         </StyledLi>
 
         <StyledLi style={{ zIndex: 2 }}>
-          <Link href="/code">
-            code
-          </Link>{" "}
-        </StyledLi>
-        
-        <StyledLi style={{ zIndex: 1 }}>
-          <Link href="/live">
-            live examples
-          </Link>{" "}
+          <Link href="/code">code</Link>{" "}
         </StyledLi>
 
-        <StyledLi style={{ zIndex: 0 }}>
-          <Link href="/about">
-            about me
-          </Link>{" "}
+        <StyledLi style={{ zIndex: 1 }}>
+          <Link href="/live">live examples</Link>{" "}
         </StyledLi>
-      
       </UlContainer>
-    
     </NavContainer>
   );
 }

@@ -47,13 +47,12 @@ const CodeDisplay = styled.div`
 export default function Code() {
   return (
     <CodeDisplay>
-      <h2>I have lots of</h2>
       <h1>code</h1>
-      <h2>here are some places you can view my js code.</h2>
+      <h2>Here are some places you can view my js code.</h2>
 
       <h3>GitHub</h3>
       <p>
-        lots of code and unfinished projects, and most of my best stuff is
+        I have lots of code and unfinished projects on GitHub. Some of my best stuff is
         private, but feel free to roam around.
       </p>
 
@@ -64,9 +63,7 @@ export default function Code() {
 
       <h3>FreeCodeCamp</h3>
       <p>
-        I had a proper go at FCC about two years ago. I even forgot to claim one
-        of my certificates! FCC was essential in helping me understand some
-        fundamentals of web dev and javascript.
+        I had a proper go at FCC about two years ago. The coursework helped me cement the fundamentals of web development and js.
       </p>
       <LinkButton
         url="https://www.freecodecamp.org/certification/phillip-d-shields/javascript-algorithms-and-data-structures"
@@ -80,10 +77,8 @@ export default function Code() {
 
       <h3>Exercism</h3>
       <p>
-        This website saved my sanity during lockdown and really helped me
-        develop my js knowledge. I had almost forgotten about this website,
-        compiling material for this helped remind me. Time to start on some more
-        exercises! Maybe add in a dash of typescript!
+        This website saved my sanity during the pandemic lockdown and helped me
+        expand my js knowledge. Now that I have some free time again, I am planning on trying to finish the js track.
       </p>
 
       <LinkButton
