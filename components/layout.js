@@ -1,4 +1,4 @@
-import LargeNavbar from "./largeNavbar";
+import LargeNavbar from "./LargeNavbar";
 import styled from 'styled-components'
 
 const DisplayContainer = styled.div`
