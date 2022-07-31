@@ -6,7 +6,7 @@ export const lightTheme = {
     color: '#403F3E',
     headerBg:  '#467F8C',
     headerFg: '#F2ECEB',
-    buttonBg: '#F2ECEB',
+    buttonBg: '#04BF55',
     buttonFg: '#038C33',
     sectionTitleBg: '#A63F03',
     sectionTitleFg: '#F2ECEB',
@@ -20,9 +20,9 @@ export const lightTheme = {
     navBoxHoverBefore: '#396873',
     navBoxHoverAfter: '#396873',
     themeTogglerBg: '#F2ECEB',
-    themeTogglerFg: '#467F8C',
+    themeTogglerFg: '#403F3E',
     themeTogglerBgHover: '#403F3E',
-    themeTogglerFgHover: '#467F8C',
+    themeTogglerFgHover: '#F2ECEB',
 }
 
 export const darkTheme = {
@@ -30,8 +30,8 @@ export const darkTheme = {
     color: '#F2ECEB',
     headerBg:  '#F2ECEB',
     headerFg: '#204040',
-    buttonBg: '#162C40',
-    buttonFg: '#F2ECEB',
+    buttonBg: '#BFBBBA',
+    buttonFg: '#8C8C8B',
     sectionTitleBg: '#204040',
     sectionTitleFg: '#F2ECEB',
     textLink: '#8C8C8B',
@@ -44,7 +44,7 @@ export const darkTheme = {
     navBoxHoverBefore: '#162C40',
     navBoxHoverAfter: '#162C40',
     themeTogglerBg: '#403F3E',
-    themeTogglerFg: '#401014',
+    themeTogglerFg: '#F2ECEB',
     themeTogglerBgHover: '#F2ECEB',
-    themeTogglerFgHover: '#401014',
+    themeTogglerFgHover: '#403F3E',
     }
