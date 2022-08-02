@@ -84,7 +84,7 @@ export default function Live() {
         <p>
           This is a travel guru that shows the most popular places to eat, sleep, and visit in an area. This app uses a google maps api, travel advisor api, react, and material-ui. This app is a prototype to help me develop another app that will provide similar functionality.
         </p>
-
+            <LinkButton url="https://travel-guru-demo-v1.netlify.app/" text="travel guru live" />
         <LinkButton
           url="https://github.com/Phillip-D-Shields/react-travel-advisor"
           text="GitHub repo"
