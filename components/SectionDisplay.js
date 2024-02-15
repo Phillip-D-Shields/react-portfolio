@@ -5,15 +5,13 @@ const StyledSection = styled.div`
 
   h3 {
     width: 75%;
-    width: 100%;
     font-size: 3rem;
-    text-align: center;
-    margin: 1.5rem 0;
+    margin: 1.5rem 0 1rem auto;
     padding: 0.5rem;
     background: ${(props) => props.theme.sectionTitleBg};
     color: ${(props) => props.theme.sectionTitleFg};
     letter-spacing: 0.05rem;
-    border-radius: .25rem;
+    border-radius: 0.05rem;
   }
 
   p {

@@ -1,16 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleHalfStroke } from "@fortawesome/free-solid-svg-icons";
-
 
 export default function ThemeToggler(props) {
   const ThemeButton = styled.div`
     cursor: pointer;
-    padding: .75rem;
-    font-size: 2.25rem;
+    padding: 1rem;
+    font-size: 1.5rem;
     position: fixed;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     background: ${(props) => props.theme.themeTogglerBg};
     color: ${(props) => props.theme.themeTogglerFg};
     opacity: 60%;
@@ -23,7 +22,6 @@ export default function ThemeToggler(props) {
       color: ${(props) => props.theme.themeTogglerFgHover};
     }
   `;
-
 
   return (
     <ThemeButton onClick={props.themeToggler}>

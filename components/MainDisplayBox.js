@@ -9,7 +9,7 @@ const DisplayBox = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  color: ${props => props.theme.color};
+  color: ${(props) => props.theme.color};
   text-align: right;
 
   h1 {
@@ -19,8 +19,8 @@ const DisplayBox = styled.div`
     padding: 0.5rem;
     background: ${(props) => props.theme.headerBg};
     color: ${(props) => props.theme.headerFg};
-    letter-spacing: 0.25rem;
-    border-radius: .25rem;
+    letter-spacing: 0.15rem;
+    border-radius: 0.05rem;
     text-transform: uppercase;
   }
 `;
@@ -28,9 +28,7 @@ const DisplayBox = styled.div`
 export default function MainDisplayBox(props) {
   return (
     <DisplayBox>
-      <h1>
-        {props.headerText}
-      </h1>
+      <h1>{props.headerText}</h1>
       {props.children}
     </DisplayBox>
   );

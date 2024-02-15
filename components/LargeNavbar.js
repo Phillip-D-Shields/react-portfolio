@@ -2,7 +2,6 @@ import Link from "next/link";
 import styled from "styled-components";
 
 export default function LargeNavbar() {
-
   const NavContainer = styled.nav`
     position: fixed;
     display: flex;
@@ -22,22 +21,21 @@ export default function LargeNavbar() {
     position: relative;
     list-style: none;
     width: 225px;
-    background: ${props => props.theme.navBoxBgMain};
+    background: ${(props) => props.theme.navBoxBgMain};
     padding: 15px;
     transition: 0.25s;
     color: ${(props) => props.theme.navBoxFg};
     display: flex;
 
     &:hover {
-      background: ${props => props.theme.navBoxHoverMain};
+      background: ${(props) => props.theme.navBoxHoverMain};
       transform: translateX(30px);
 
-
       &:before {
-        background: ${props => props.theme.navBoxHoverBefore};
+        background: ${(props) => props.theme.navBoxHoverBefore};
       }
       &:after {
-        background: ${props => props.theme.navBoxHoverAfter};
+        background: ${(props) => props.theme.navBoxHoverAfter};
       }
     }
 
@@ -72,6 +70,8 @@ export default function LargeNavbar() {
       display: block;
       letter-spacing: 0.05rem;
       transition: 0.25s;
+      width: 100%;
+      height: 100%;
     }
   `;
 
@@ -83,15 +83,11 @@ export default function LargeNavbar() {
         </StyledLi>
 
         <StyledLi style={{ zIndex: 3 }}>
-          <Link href="/past">past experience</Link>{" "}
+          <Link href="/past">experience</Link>{" "}
         </StyledLi>
 
         <StyledLi style={{ zIndex: 2 }}>
           <Link href="/code">code</Link>{" "}
-        </StyledLi>
-
-        <StyledLi style={{ zIndex: 1 }}>
-          <Link href="/live">live examples</Link>{" "}
         </StyledLi>
       </UlContainer>
     </NavContainer>
