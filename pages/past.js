@@ -6,21 +6,21 @@ export default function Past() {
     <MainDisplayBox headerText="experience">
       <SectionDisplay title="Genia">
         <p>
-          In my current role as the lead developer at Genia, I've been entrusted
-          with the comprehensive maintenance and enhancement of our bespoke
-          factory management system, with a keen focus on maximizing system
-          uptime and implementing strategic improvements. My responsibilities
-          encompass the meticulous management of our GitHub repositories,
-          ensuring timely resolution of bugs and seamless introduction of new
-          features. Leveraging a sophisticated technology stack that includes
-          React, JavaScript, GraphQL, C#, and SQL, I've contributed extensively
-          to the development and optimization of our core codebase.
-          Additionally, my versatility has allowed me to undertake diverse
-          projects utilizing C++, Python, and Go, further broadening our
-          technological footprint. Recently, I've extended my expertise to
-          support our marketing team, addressing critical bugs in their Angular
-          and Strapi-based website, thereby enhancing our digital presence and
-          operational efficiency.
+          In my current role as the lead developer at Genia, I have been
+          entrusted with the comprehensive maintenance and enhancement of our
+          bespoke factory management system, with a keen focus on maximizing
+          system uptime and implementing strategic improvements. My
+          responsibilities encompass the meticulous management of our GitHub
+          repositories, ensuring timely resolution of bugs and seamless
+          introduction of new features. Leveraging a sophisticated technology
+          stack that includes React, JavaScript, GraphQL, C#, and SQL, I have
+          contributed extensively to the development and optimization of our
+          core codebase. Additionally, my versatility has allowed me to
+          undertake diverse projects utilizing C++, Python, and Go, further
+          broadening our technological footprint. Recently, I have extended my
+          expertise to support our marketing team, addressing critical bugs in
+          their Angular and Strapi-based website, thereby enhancing our digital
+          presence and operational efficiency.
         </p>
       </SectionDisplay>
       <SectionDisplay title="UN Volunteer">
@@ -48,9 +48,10 @@ export default function Past() {
           marked our third collaboration. This partnership was a profound
           learning experience, deepening my understanding of Bootstrap and
           React, and fostering a creative exploration in logo and webpage
-          design. Although the project was discontinued due to my partner's new
-          professional engagement, the journey was immensely enriching, blending
-          technical skill development with artistic expression.
+          design. Although the project was discontinued due to my partner
+          starting a new professional engagement, the journey was immensely
+          enriching, blending technical skill development with artistic
+          expression.
         </p>
       </SectionDisplay>
     </MainDisplayBox>
