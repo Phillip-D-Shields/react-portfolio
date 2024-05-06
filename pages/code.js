@@ -16,10 +16,22 @@ export default function Code() {
           text="check out my repos"
         />
       </SectionDisplay>
+      <SectionDisplay title="Digiwha">
+        <p>
+          Digiwha is a new project I am working on with a friend. Digiwha
+          gamifies learning Te Reo Māori. This is a MVP and still under
+          development, but the landing page is pretty neat. It is a passion
+          project that we are developing in our spare time.
+        </p>
+        <LinkButton
+          url="https://sprightly-sherbet-08bec4.netlify.app/"
+          text="Digiwha prototype"
+        />
+      </SectionDisplay>
       <SectionDisplay title="some random js projects">
         <p>
           Some random javascript projects to help me learn and practice some
-          pretty neat javascript stuff. All hosted via GitHub pages.
+          JavaScript and CSS stuff. Mostly hosted via GitHub pages.
         </p>
         <LinkButton
           url="https://phillip-d-shields.github.io/js-pip/"
