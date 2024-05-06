@@ -18,10 +18,9 @@ export default function Code() {
       </SectionDisplay>
       <SectionDisplay title="Digiwha">
         <p>
-          Digiwha is a new project I am working on with a friend. Digiwha
-          gamifies learning Te Reo Māori. This is a MVP and still under
-          development, but the landing page is pretty neat. It is a passion
-          project that we are developing in our spare time.
+          Digiwha is a passion project that a friend and I are developing.
+          Digiwha aims to gamify learning Te Reo Māori. This is an MVP and still
+          under development, but the landing page is pretty neat.
         </p>
         <LinkButton
           url="https://sprightly-sherbet-08bec4.netlify.app/"
